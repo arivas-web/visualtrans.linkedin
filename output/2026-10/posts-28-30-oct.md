@@ -71,20 +71,28 @@ Iremos al grano: propone la IA, decides tú.
 ---
 PERFIL: Emma González
 FECHA: Mié 28/10 11:00
-TEMA: Dato curioso · 6, 8 y 10 dígitos · imagen
+TEMA: Normativa · DeCA vs eCMR · imagen
 ESTADO: Listo
-NOTA: Sustituye al pain #4. En Metricool sigue programado el anterior: hay que cambiarlo.
+NOTA: Sustituye al dato de los 6, 8 y 10 dígitos. Patrón de su mejor post (DeCA, 1.200 impresiones): normativa con dato práctico. Datos del briefing (transportes.gob.es); fuente al primer comentario. En Metricool sigue programado el viejo: cambiar solo con tu ok.
 ---
 
-6, 8 o 10 dígitos. Para el mismo producto.
+DeCA y eCMR no son lo mismo. Y desde el 5 de octubre conviene tenerlo claro.
 
-Los seis primeros son el Sistema Armonizado, el mismo en más de 200 países. Con ocho entras en la Nomenclatura Combinada de la UE. Y con diez llegas al TARIC, que es el que decide el arancel y las medidas que se aplican en tu despacho.
+El DeCA es para el transporte nacional por carretera, cabotaje incluido. Tiene que ser nativo digital y con QR: el papel y el documento escaneado ya no valen.
 
-Dos productos pueden compartir los seis primeros dígitos y pagar cosas muy distintas.
+El eCMR, en cambio, es para el transporte internacional, bajo el Protocolo de 2008. Otra norma, otro alcance.
 
-Por eso un código "casi bien" no existe. Y por eso, en el día a día, el error casi nunca está en el capítulo: está en los dos últimos dígitos.
+Así de simple:
 
-¿Sabías que el código cambia de longitud según el país al que envías?
+✔️ Nacional por carretera → DeCA digital con QR.
+✔️ Internacional → CMR o eCMR.
+✔️ Papel escaneado → no es un DeCA válido.
+
+Mezclarlos es más fácil de lo que parece. Aclararlo hoy te ahorra un susto con el siguiente cliente.
+
+Fuente en el primer comentario 👇
+
+¿Cuál de los dos te da más dudas en el día a día?
 
 ---
 PERFIL: Visual Trans
