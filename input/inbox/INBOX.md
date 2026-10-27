@@ -26,3 +26,4 @@ falta tocar ningún otro archivo ni relanzar nada aparte del pipeline habitual.
 <!-- Añade tus líneas nuevas debajo de esta marca. El archivista las retira de aquí
 cuando las procesa. -->
 - 2026-10-20 (Adrián, feedback sobre el calendario 21-31 oct): no más posts sobre DeCA ni eCMR; no hablar de factura electrónica ni Verifactu. Apoyar los siguientes calendarios en lo que más ha funcionado en los últimos meses. Avisarle del enfoque antes de generar un calendario nuevo.
+- 2026-10-27 (Adrián): hemos abusado de Tariff Code; está quemado y ya no genera likes ni impresiones. Dejar de basar posts en Tariff Code (producto, "Los demás", frutos secos...) en los próximos calendarios; priorizar lo que funciona (personas/equipo, normativa con dato práctico, eventos).

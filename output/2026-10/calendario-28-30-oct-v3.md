@@ -5,3 +5,5 @@ Cambios frente a la propuesta anterior: pulsera de actividad fuera (537 impresio
 Detalle en `calendario-28-30-oct-v3.csv`.
 
 Actualización 27-oct: el post de Emma del miércoles 28 (pain #4) se sustituye por un dato curioso (6, 8 y 10 dígitos del código arancelario), texto en `emma-28-oct-dato-curioso.md`. El viernes 30 de Visual Trans se deja tal cual: lo cubre el usuario con un caso de éxito.
+
+Actualización 27-oct (tarde): Tariff Code está quemado (sin likes ni impresiones). Cecilio jue 29 pasa a pain #12 (tarifas a mano) y Emma jue 29 a pain #10 (trazabilidad). El dato de los 6, 8 y 10 dígitos de Emma del miércoles se mantiene.

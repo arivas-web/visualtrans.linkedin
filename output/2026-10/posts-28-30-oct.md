@@ -135,22 +135,22 @@ No es solo software, es responsabilidad legal.
 ---
 PERFIL: Cecilio Labrada
 FECHA: Jue 29/10 10:00
-TEMA: Tariff Code · "Los demás" · imagen
+TEMA: Pain #12 · tarifas a mano · imagen
 ESTADO: Listo
-NOTA: Sin producto ni cifras, así que no hay nada que verificar. Si prefieres un producto concreto con sus códigos, dímelo y lo cambio.
+NOTA: Sustituye al de Tariff Code ("Los demás"). Sin cifras que verificar.
 ---
 
-¿Sabías que hay un código arancelario que se usa cuando nada parece encajar?
+El cliente pide precio. Abres el Excel de tarifas, buscas la fila, miras la fecha de la última actualización y dudas.
 
-Se llama "Los demás". Y es donde acaban muchos productos cuando la descripción se queda corta.
+Las tarifas cambian cada semana. El Excel, cuando alguien se acuerda.
 
-No hablo de productos raros. Hablo de lo de todos los días: ese que lleva meses en tu cartera y nadie se ha parado a revisar.
+Y ahí empieza el problema: una oferta con una tarifa vieja se firma igual. El margen que creías tener no estaba.
 
-El problema no es que exista ese código. El problema es llegar a él por falta de tiempo, no porque sea el correcto. Sin contar la diferencia de arancel que puede esconder.
+Actualizar tarifas una a una, a mano, no es un problema de orden. Es un problema de sistema.
 
-Con Tariff Code escribes la descripción, recibes el código y ves la justificación de por qué es ese y no otro.
+La tarifa tiene que vivir donde vive la operación, no en un archivo aparte que se queda atrás.
 
-¿Cuántos de tus productos habituales están en un "Los demás" sin que nadie lo haya comprobado?
+¿Cuándo fue la última vez que una oferta tuya salió con una tarifa desfasada?
 
 ---
 PERFIL: Laura Díaz
@@ -175,25 +175,23 @@ Vosotros lo vivís desde dentro: ¿lo notáis ya en el día a día?
 ---
 PERFIL: Emma González
 FECHA: Jue 29/10 11:00
-TEMA: Tariff Code · frutos secos · imagen
+TEMA: Pain #10 · trazabilidad del envío · imagen
 ESTADO: Listo
-NOTA: Ya programado en Metricool. Pendiente cambiar a la imagen v2.
+NOTA: Sustituye al de frutos secos (Tariff Code). Ojo: en Metricool sigue programado el de frutos secos para este hueco; cambiarlo solo con tu ok.
 ---
 
-0802908500 o 2008199900. Unos frutos secos, 3.800 € de diferencia.
+"¿Dónde está mi contenedor?"
 
-Parece una curiosidad. En la aduana es una decisión.
+Esa llamada llega siempre. Y para contestarla hay que abrir la web de la naviera, luego la del puerto, y después escribir al cliente con lo que has encontrado.
 
-¿Son frutos secos al natural o frutos secos preparados? Según cómo se presenten, cambia el código y cambia el arancel.
+Cada consulta es manual. Cada aviso, también. Y aun así el cliente vuelve a llamar, porque ahora espera saberlo sin preguntar.
 
-En un contenedor estándar, la diferencia es de 3.800 €.
+La trazabilidad no debería costar una hora de tu día. Debería ser un dato que ya está donde lo necesitas.
 
-La diferencia entre un código y otro se nota desde el primer despacho.
+→ Estado del envío en un solo sitio
+→ Aviso al cliente sin escribirlo a mano
 
-→ El código correcto
-→ El porqué de ese código
-
-¿Te ha pasado alguna vez con un producto de este tipo?
+¿Cuántas veces al día te preguntan dónde está un envío?
 
 ---
 PERFIL: Visual Trans
