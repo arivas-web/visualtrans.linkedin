@@ -14,4 +14,4 @@ No es solo un evento; es una forma de estar cerca del sector.
 
 Gracias a Antonio Nabo, Bruno Falcão, Inês Simões, Mariana Teixeira y a todo el equipo de APAT por la oportunidad y por la organización 👏
 
-Nuevas relaciones, más valor. ¡Nos vemos!
+Cuanto más cerca estamos, más lejos llega el sector.
