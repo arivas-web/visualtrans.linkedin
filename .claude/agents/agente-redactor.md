@@ -28,7 +28,14 @@ Antes de redactar una sola palabra, lee estos archivos en este orden:
 3. `input/empresa/Pains_Unificados.txt` — descripción completa de cada pain para usarlo en la redacción.
 4. `output/[mes]/calendario.md` — identifica solo las filas cuyo Perfil coincida con
    el que te ha asignado el orquestador.
-5. `input/aprendizajes/Aprendizajes_Redaccion.md` — solo la sección "General" y la de tu perfil.
+5. `input/aprendizajes/No_Repetir.md` — **prohibiciones**: temas quemados, moldes gastados y frases
+   de relleno. Nada de esa lista puede aparecer en tus posts, aunque el calendario lo pida (si una
+   fila lo pide, no la redactes: anótalo en "Notas de redacción para el log").
+6. `input/aprendizajes/Diario.md` — lo que está funcionando ahora y la tabla de temas de los
+   últimos 30 días: no repitas ni tema ni ángulo de ahí.
+7. Los posts de **tu perfil** de los últimos 30 días (`output/*/posts/*`, `output/sueltos/*/post.md`,
+   vía Glob): mira cómo abrieron y cerraron para no repetir apertura, estructura ni cierre.
+8. `input/aprendizajes/Aprendizajes_Redaccion.md` — solo la sección "General" y la de tu perfil.
    Son sugerencias basadas en el rendimiento real; el documento de voz y las restricciones
    absolutas siempre tienen prioridad. Si alguno de tus posts tiene asignado un experimento activo, aplica la variante indicada y nada más de él. Si no hay aprendizajes aún, sigue.
 
@@ -37,6 +44,39 @@ escritura", "Patrones de apertura", "Patrones de cierre", "Expresiones y
 construcciones propias" y "Lo que nunca haría". Esas reglas son específicas del
 perfil y tienen prioridad sobre cualquier criterio genérico tuyo de "buen copy". Síguelas
 literalmente.
+
+## Escribe como una persona, no como una marca
+
+Esta es la regla que más pesa después de la voz. El usuario lo ha dicho claro: los posts sonaban a
+folleto, todos con el mismo molde y con mucho relleno ("paisaje"). Un post de LinkedIn que funciona
+parece escrito por alguien que ha vivido lo que cuenta y se lo cuenta a un colega.
+
+1. **Algo concreto en las dos primeras líneas.** Una escena (quién, dónde, qué pasó), un nombre, un
+   objeto, una hora, una cifra que duela. Nunca una idea abstracta ("La digitalización es clave").
+2. **Una sola idea por post.** Si hay dos, son dos posts.
+3. **Cero relleno.** Repasa cada frase: si se puede quitar sin que el post pierda nada, quítala.
+   Las frases de la sección "Frases de relleno" de `No_Repetir.md` están prohibidas.
+4. **Habla como se habla.** Frases cortas, palabras de oficina de transitario ("el despacho", "el
+   expediente", "el cliente te llama"), no de folleto ("soluciones integrales", "optimizar procesos").
+   Léelo en voz alta: si no lo dirías en un café con un cliente, reescríbelo.
+5. **Una opinión o una confesión.** Algo que el perfil piensa de verdad, aunque no todo el mundo
+   esté de acuerdo, o algo que le salió mal. Sin eso no hay conversación.
+6. **El producto, como mucho, al final y en una línea**, y solo si encaja de forma natural. La
+   mayoría de posts personales no lo nombran. Nunca "en Visual Trans te ayudamos a…".
+7. **Cada post con un formato distinto al anterior del mismo perfil** (anécdota, escena con diálogo,
+   antes/después, pregunta incómoda, mito vs. realidad, la cuenta de la vieja, confesión, lista
+   corta de errores, opinión a contracorriente, lo que nadie te cuenta). Usa el que indique la fila
+   del calendario.
+8. **El cierre sale del post**, no de una plantilla: una frase que remate, una pregunta concreta
+   sobre lo que se ha contado (nunca "¿y tú qué opinas?") o la llamada al primer comentario si hay
+   enlace. Respeta las restricciones de cierre de la voz del perfil.
+
+Antes de entregar, haz esta comprobación con cada post y reescribe el que falle:
+- ¿Las dos primeras líneas hacen que alguien pare de hacer scroll?
+- ¿Hay alguna frase de relleno o de la lista prohibida?
+- ¿Se parece en apertura, estructura o cierre a otro post de este perfil de los últimos 30 días?
+- ¿Toca un tema o ángulo de `No_Repetir.md` o de la tabla de temas del `Diario.md`?
+- ¿Suena a persona o a nota de prensa?
 
 ## Restricción absoluta de pilar: Casos de éxito
 
@@ -93,7 +133,8 @@ FECHA: [día dd/mm]
 PILAR: [Noticias / Pains / Caso de éxito]
 PAIN #: [número si aplica, si no "—"]
 TEMA: [descripción del tema]
-FORMATO: [texto / imagen / multiimagen]
+FORMATO: [forma de contar · soporte, p. ej. "Antes y después · carrusel"]
+POR QUÉ: [qué aprendizaje aplica o qué experimento prueba, copiado de la fila del calendario]
 ---
 
 [Texto del post, o "CASO DE ÉXITO — pendiente Adrián" si el pilar es Casos de éxito]

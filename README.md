@@ -50,10 +50,11 @@ Una orquestación de subagentes, cada uno con una responsabilidad única, recorr
 |---|---|---|
 | 0 | `agente-archivista` | Lee `input/inbox/INBOX.md`, clasifica cada línea y la vuelca al archivo de `input/` que le corresponde. Las entradas procesadas pasan a `INBOX_procesado.md`. |
 | 1 | `agente-investigador` | Investiga tendencias, normativas y ferias del mes, apoyándose en `input/noticias/Noticias_Sector.txt`, y decide el **pain prioritario**. Escribe `briefing.md`. Es el mismo agente que alimenta la vigilancia automática de noticias. |
-| 2 | `agente-calendario` | Construye el calendario aplicando los pilares y las reglas de no-solapamiento. Lo envía como Google Sheets por correo. |
+| 1.5 | `agente-metricas` + `agente-aprendizajes` (RETRO) | Mira los últimos 30 días publicados y escribe `retro.md`: qué funcionó, qué no y qué cambia. Lo que no funcionó entra en `No_Repetir.md`. |
+| 2 | `agente-calendario` | Construye el calendario aplicando el retro, `No_Repetir.md`, los pilares y las reglas de no-solapamiento. Cada fila dice por qué. Lo entrega en slides. |
 | 2 | **Validación humana** | **Única pausa del pipeline.** Se valida el calendario en el chat. Hasta entonces no se redacta nada. |
 | 3 | `agente-redactor` | Redacta los posts. Se invoca 5 veces en paralelo, una por perfil, cada una con su documento de voz. |
-| 3.5 | `agente-presentacion` | Genera un .pptx con un post por diapositiva para revisión visual (auxiliar, no bloquea). |
+| 3.5 | `agente-presentacion` | Genera las slides de los posts con `scripts/slides.py` (formato único de entrega). |
 | 4 | `agente-validador` | Comprueba el resultado final contra las restricciones absolutas. Escribe `validacion.md`. |
 | 4.5 | **Aprobación humana** | Se aprueban los posts ya validados. Al aprobar se crea `output/AAAA-MM/APROBADO.md`. |
 
@@ -62,6 +63,19 @@ Fuera del ciclo mensual hay una rutina que corre **el día 1 de cada mes**: `age
 Todo lo demás es autónomo. Las decisiones que antes requerían confirmación quedan registradas en `log-decisiones.md`, para auditar *después*, sin bloquear la ejecución.
 
 ---
+
+## Cómo aprende (nuevo, 27-oct-2026)
+
+El flujo completo, en diagramas, está en `docs/flujo-agente.pptx`. En resumen:
+
+- **Cada día laborable** (`/aprendizaje-diario`): procesa el INBOX y el feedback, mira las métricas
+  de los últimos 30 días y actualiza `input/aprendizajes/Diario.md` (lo que funciona ahora y los
+  temas ya contados) y `input/aprendizajes/No_Repetir.md` (lo que no se vuelve a hacer).
+- **Antes de cada calendario** (de cualquier rango): retro obligatorio (`retro.md`). Lo que no
+  funcionó no se reutiliza; cada fila dice de qué aprendizaje sale.
+- **Cuando el usuario dice que algo no le gusta**: entra en `No_Repetir.md` en ese momento.
+- **El día 1**: análisis estadístico mensual (`Aprendizajes_Calendario.md` y `Aprendizajes_Redaccion.md`).
+- **Entrega**: siempre slides con `scripts/slides.py`, con la diapositiva "Qué aprendimos y qué cambia".
 
 ## Estructura del repo
 
@@ -76,6 +90,8 @@ input/                              ← lo que LEE la IA
 ├── eventos/
 │   └── Eventos_Campañas.txt        ← ferias, webinars, lanzamientos, normativas con fecha, campañas
 ├── aprendizajes/
+│   ├── No_Repetir.md               ← prohibiciones: temas quemados, moldes y frases de relleno
+│   ├── Diario.md                   ← lo que funciona ahora y temas de los últimos 30 días
 │   ├── Aprendizajes_Calendario.md  ← lo aprendido del rendimiento, para el calendario
 │   └── Aprendizajes_Redaccion.md   ← lo aprendido del rendimiento, para la redacción
 ├── historico/
@@ -95,6 +111,7 @@ input/                              ← lo que LEE la IA
 
 output/                             ← lo que GENERA la IA, un directorio por mes
 └── AAAA-MM/
+    ├── retro.md                    ← qué funcionó, qué no y qué cambia (antes del calendario)
     ├── briefing.md                 ← investigación del mes y pain prioritario
     ├── calendario.md               ← calendario completo
     ├── posts/[perfil].md           ← posts redactados, uno por perfil

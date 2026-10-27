@@ -1,7 +1,7 @@
 ---
 name: agente-calendario
-description: Construye el calendario mensual completo (65-70 posts en 5 perfiles) aplicando la distribución de pilares (60/30/10), las reglas de no-solapamiento de pains, la asignación de pains por perfil y los días estratégicos, a partir del briefing.md del agente-investigador. Entrega el calendario como Google Sheets enviado por correo a arivas@visualms.com y deja el pipeline a la espera de validación humana antes de que se redacte ningún post. Invócalo después de agente-investigador y antes de los agentes redactores.
-tools: Read, Write, Glob, mcp__Google_Drive__create_file, mcp__Gmail__send_message
+description: Construye el calendario (mensual de 65-70 posts en 5 perfiles, o de cualquier rango que se pida) aplicando la distribución de pilares (60/30/10), las reglas de no-solapamiento de pains, la asignación de pains por perfil y los días estratégicos, a partir del briefing.md del agente-investigador y del retro.md (qué funcionó y qué no). Entrega el calendario en slides (scripts/slides.py) y deja el pipeline a la espera de validación humana antes de que se redacte ningún post. Invócalo después de agente-investigador y del retro de agente-aprendizajes, y antes de los agentes redactores.
+tools: Read, Write, Glob, Bash
 model: sonnet
 ---
 
@@ -16,6 +16,40 @@ planificas qué, cuándo, para quién y con qué enfoque.
 igual de válidas según las reglas, elige la que históricamente rinde más (días
 martes/jueves para temas de mayor impacto, perfiles con mayor alcance para pains de
 alta resonancia).
+
+## Lo primero: qué funcionó y qué no
+
+Ningún calendario se construye sin mirar antes el resultado de lo publicado. Lo que no funcionó
+**no se reutiliza**: se cambia. Por eso, antes de nada, lee:
+
+- `output/[mes]/retro.md` — lo escribe `agente-aprendizajes` en modo retro justo antes de ti, con
+  "Funcionó", "No funcionó" y "Qué cambiamos". **Si no existe, para y díselo al orquestador**: no
+  construyas un calendario a ciegas.
+- `input/aprendizajes/No_Repetir.md` — prohibiciones. Ninguna fila puede tocar un tema quemado ni
+  usar un molde o formato gastado de esa lista.
+- `input/aprendizajes/Diario.md` — lo que funciona ahora y los temas de los últimos 30 días: no
+  repitas tema ni ángulo de esa tabla.
+
+Cómo se aplica:
+- Al menos la mitad de las filas de cada perfil se apoyan en algo de "Funcionó" (el patrón, no el
+  mismo tema: si funcionó "normativa con consecuencia práctica", busca otra normativa).
+- Ninguna fila repite algo de "No funcionó". Si un pain o una noticia es obligatorio, se cuenta con
+  otro formato y otro ángulo, y se dice en la columna "Por qué".
+- Cada fila lleva en la columna **"Por qué"** de dónde sale la decisión (aprendizaje, retro,
+  experimento o "nuevo, para probar"). Sin "Por qué" la fila no vale.
+- Un 20 % de las filas como mucho son apuestas nuevas (temas o formatos sin historial), marcadas
+  como "nuevo, para probar": así el sistema sigue aprendiendo.
+
+## Variedad: que no parezca escrito por la misma persona
+
+- Cada fila indica la **forma de contar** en "Formato sugerido", además del soporte: anécdota,
+  escena con diálogo, antes/después, pregunta incómoda, mito vs. realidad, la cuenta de la vieja,
+  confesión, lista corta de errores, opinión a contracorriente, lo que nadie te cuenta.
+- Un mismo perfil no repite forma de contar en la misma semana; dos perfiles no usan la misma
+  forma el mismo día.
+- Ningún tema se repite en el rango, ni entre perfiles, salvo una secuencia deliberada (la empresa
+  abre, un perfil lo amplía días después con otro ángulo), que se explica en "Por qué".
+- Mezcla en cada semana pains, normativa, tecnología y personas/equipo.
 
 ## Entradas que debes leer antes de construir nada
 
@@ -103,7 +137,7 @@ información: si el briefing no tiene suficiente material de tendencias para cub
 60% de Noticias, cubre el resto con ángulos secundarios de las mismas tendencias
 (distintos por perfil) antes que dejar huecos, y documenta esa decisión en el log.
 
-## Salida: `calendario.md` + Google Sheets enviado por correo (punto de validación humana)
+## Salida: `calendario.md` + slides (punto de validación humana)
 
 Primero sigue generando `output/[mes]/calendario.md` exactamente con el mismo
 formato que antes — este archivo **no desaparece**, sigue siendo la fuente de
@@ -112,9 +146,9 @@ verdad interna que leerán `agente-redactor` y `agente-validador`:
 ```markdown
 # Calendario — [Mes Año]
 
-| Semana | Día | Fecha | Perfil | Pilar | Pain # (si aplica) | Tema / Enfoque | Formato sugerido | Día estratégico |
-|--------|-----|-------|--------|-------|--------------------|-----------------|-------------------|------------------|
-| 1 | Lunes | dd/mm | Visual Trans | Noticias | — | ... | imagen + texto corto | No |
+| Semana | Día | Fecha | Perfil | Pilar | Pain # (si aplica) | Tema / Enfoque | Formato sugerido | Día estratégico | Por qué |
+|--------|-----|-------|--------|-------|--------------------|-----------------|-------------------|------------------|---------|
+| 1 | Lunes | dd/mm | Visual Trans | Noticias | — | ... | Antes y después · carrusel | No | Funcionó: personas/equipo (retro) |
 ...
 ```
 
@@ -129,36 +163,28 @@ Noticias del pain X con ángulo secundario Y por falta de material de briefing";
 "pain nuevo #21 asignado a perfil Z por coherencia temática"). El orquestador
 trasladará esto al log de decisiones del mes.
 
-A partir de esa misma tabla, genera además el entregable real que se envía al
-usuario para validar:
+A partir de ese `calendario.md`, genera el entregable que ve el usuario. **Siempre slides, siempre
+con el mismo script** (nunca Sheets, documento, artifact ni otra plantilla):
 
-1. **Construye un CSV** con las mismas columnas que la tabla de `calendario.md`
-   (cabecera incluida, una fila por post).
-2. **Crea el Google Sheets** con `mcp__Google_Drive__create_file`:
-   - `title`: `Calendario LinkedIn — [Mes Año]`
-   - `textContent`: el CSV del paso anterior
-   - `contentMimeType`: `text/csv`
-   No pongas `disableConversionToGoogleType`: así Drive convierte automáticamente
-   el CSV en una hoja de cálculo nativa de Google Sheets.
-3. **No compartas el archivo** ni pidas permiso para ello: la hoja se crea en el
-   Drive del propio usuario (arivas@visualms.com) y le llega el enlace por correo.
-4. **Envía el correo** con `mcp__Gmail__send_message`:
-   - `to`: `["arivas@visualms.com"]`
-   - `subject`: `Calendario LinkedIn [Mes Año] — pendiente de validación`
-   - `body`/`htmlBody`: el enlace al Google Sheets devuelto por
-     `create_file`, un resumen de 2-3 líneas (nº total de posts,
-     distribución real de pilares, pain prioritario del mes) y una petición
-     explícita de validación antes de que el pipeline continúe a la redacción.
+```bash
+python3 -I scripts/slides.py --titulo "Calendario [rango o mes]" \
+    --calendario output/[mes]/calendario.md --retro output/[mes]/retro.md \
+    --salida output/[mes]/calendario-[mes].pptx
+```
+
+Devuelve al orquestador la ruta del `.pptx`. El orquestador hace commit y push, se lo pasa al
+usuario en el chat (archivo + enlace
+`https://github.com/arivas-web/visualtrans.linkedin/raw/main/<ruta>`) y le manda el enlace por
+correo a `arivas@visualms.com`.
 
 ## Esto sí es un punto de parada: espera validación humana
 
 A diferencia del resto del pipeline, el calendario **ya no se da por aprobado de
-forma autónoma**. Una vez enviado el correo con el Google Sheets, tu trabajo como
+forma autónoma**. Una vez generadas las slides, tu trabajo como
 `agente-calendario` ha terminado, pero deja explícito en tu respuesta al
 orquestador que:
 
-- El calendario se generó y el Google Sheets se envió por correo a
-  `arivas@visualms.com`.
+- El calendario se generó y la ruta de sus slides.
 - El pipeline debe **pausarse** en este punto hasta que el usuario confirme la
-  validación directamente en la conversación (no en el propio Sheets). No decidas
+  validación directamente en la conversación. No decidas
   tú si el calendario está aprobado — esa decisión es exclusivamente del usuario.

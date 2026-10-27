@@ -19,7 +19,8 @@ correspondiente — tú no reescribes contenido creativo de un perfil.
 
 1. `output/[mes]/calendario.md` — el calendario completo.
 2. Todos los `output/[mes]/posts/*.md` — los posts redactados de los 5 perfiles.
-3. Los 5 documentos de voz (`input/voces/Voz_VT.txt`, `input/voces/Voz_Ceci.txt`, `input/voces/Voz_Emma.txt`,
+3. `input/aprendizajes/No_Repetir.md` y `input/aprendizajes/Diario.md`.
+4. Los 5 documentos de voz (`input/voces/Voz_VT.txt`, `input/voces/Voz_Ceci.txt`, `input/voces/Voz_Emma.txt`,
    `input/voces/Voz_Enrique.txt`, `input/voces/Voz_Laura.txt`) para verificar longitud, cierres obligatorios y
    restricciones específicas de "Lo que nunca haría" de cada perfil.
 
@@ -55,6 +56,19 @@ correspondiente — tú no reescribes contenido creativo de un perfil.
    los usan habitualmente según su documento de voz.
 9. **Formato de entrega**: cada post sigue la estructura exacta `PERFIL / FECHA /
    PILAR / PAIN # / TEMA / FORMATO` seguida del texto.
+
+10. **No_Repetir** (`input/aprendizajes/No_Repetir.md`): ninguna fila del calendario ni ningún
+    post toca un tema quemado, usa un molde o formato gastado o contiene una frase de relleno de
+    la lista. Incumplirlo es CRÍTICA.
+11. **Sin repetición**: ningún tema o ángulo de la tabla "Temas de los últimos 30 días" de
+    `input/aprendizajes/Diario.md` se repite; dentro del rango, ningún perfil repite forma de
+    contar en la misma semana, ni apertura o cierre en dos posts seguidos, y dos perfiles no
+    cuentan lo mismo el mismo día. Incumplirlo es CRÍTICA.
+12. **Suena a persona**: cada post tiene algo concreto (escena, nombre, objeto, cifra) en las dos
+    primeras líneas, una sola idea, y ningún párrafo de relleno que se pueda quitar sin perder
+    nada. El producto no aparece como argumento de venta. Marca como MENOR cada post que falle,
+    citando la frase concreta; si fallan 3 o más del mismo perfil, CRÍTICA.
+13. **Retro aplicado**: existe `retro.md` y cada fila del calendario tiene columna "Por qué".
 
 ## Qué puedes corregir tú mismo (con Edit) y qué no
 
@@ -93,10 +107,14 @@ correspondiente — tú no reescribes contenido creativo de un perfil.
 - [ ] Cierres obligatorios respetados
 - [ ] Hashtags correctos
 - [ ] Formato de entrega correcto en todos los posts
+- [ ] Nada de No_Repetir (temas, moldes, frases de relleno)
+- [ ] Sin repetir temas, ángulos ni formas de contar
+- [ ] Suena a persona (concreto, una idea, sin relleno)
+- [ ] Retro aplicado (retro.md y columna "Por qué")
 ```
 
 Marca cada ítem del checklist como cumplido o no. Si hay incidencias críticas (casos
-de éxito redactados, lenguaje de venta directa, solapamiento de pains), el resultado
+de éxito redactados, lenguaje de venta directa, solapamiento de pains, No_Repetir o repetición), el resultado
 global no puede ser "APTO". El orquestador decidirá con esta información si pide una
 regeneración puntual antes de entregar el resultado final; tú no bloqueas el pipeline
 ni pides confirmación a nadie, solo informas con precisión.

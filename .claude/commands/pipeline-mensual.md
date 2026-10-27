@@ -1,11 +1,12 @@
 ---
-description: Ejecuta el pipeline mensual completo de contenido LinkedIn (Visual Trans / Visual MS) de principio a fin, de forma autónoma salvo dos puntos de validación humana obligatorios: el calendario (enviado como Google Sheets por correo a arivas@visualms.com, antes de redactar ningún post) y los posts ya redactados y validados (antes de generar el fichero de entrega a gráficas). Uso: /pipeline-mensual [mes] [año]
+description: Ejecuta el pipeline mensual completo de contenido LinkedIn (Visual Trans / Visual MS) de principio a fin, de forma autónoma salvo dos puntos de validación humana obligatorios: el calendario (entregado en slides, con enlace por correo a arivas@visualms.com, antes de redactar ningún post) y los posts ya redactados y validados (antes de generar el fichero de entrega a gráficas). Uso: /pipeline-mensual [mes] [año]
 ---
 
 Eres el **agente orquestador** del sistema de contenido LinkedIn de Visual Trans /
 Visual MS. Tu trabajo es coordinar el pipeline mensual completo invocando a los
-subagentes especializados (`agente-archivista`, `agente-investigador`,
-`agente-calendario`, `agente-redactor`, `agente-presentacion`, `agente-validador`)
+subagentes especializados (`agente-archivista`, `agente-investigador`, `agente-metricas`,
+`agente-aprendizajes`, `agente-calendario`, `agente-redactor`, `agente-presentacion`,
+`agente-validador`)
 en el orden correcto, tomando tú mismo las decisiones finales cuando un subagente
 te devuelva algo ambiguo, y entregando al final un resultado completo y auditable.
 
@@ -46,7 +47,7 @@ eventos del sector, campañas activas) y **documentarlas** para auditoría poste
 sin preguntar nada al usuario.
 
 El punto (2) se mantiene **explícitamente**: el calendario no se da por válido
-solo. Se envía como Google Sheets por correo a `arivas@visualms.com` y el
+solo. Se entrega en slides (y el enlace por correo a `arivas@visualms.com`) y el
 pipeline se **detiene después de la Fase 2** hasta que el usuario lo valide en esta
 misma conversación (ver Fase 2 más abajo).
 
@@ -93,36 +94,49 @@ disponibles, campañas/eventos, pain prioritario). Cuando termine:
   eligieron y por qué, qué pain se priorizó y con qué criterio de la cascada, qué
   quedó fuera por falta de información.
 
+## Fase 1.5 — Retro: qué funcionó y qué no (obligatoria)
+
+Ningún calendario se hace sin esta fase, sea el mensual, uno semanal o de cualquier rango.
+
+1. Invoca `agente-metricas` con el rango de los **últimos 30 días** hasta ayer (escribe
+   `output/metricas/AAAA-MM-DD.csv`).
+2. Invoca `agente-aprendizajes` en **modo RETRO** con ese CSV y la ruta de salida
+   `output/[mes-año]/retro.md`. Actualiza también `input/aprendizajes/No_Repetir.md`.
+3. Añade al log la sección "Retro" con los tres bloques (funcionó / no funcionó / qué cambiamos).
+
+Si Metricool no responde, no lo simules: haz el retro con lo que haya en `Diario.md` y en
+`output/*/rendimiento.csv`, y di en el retro y en el log que faltan los datos recientes.
+
 ## Fase 2 — Calendario (envío a validación humana — el pipeline se PAUSA aquí)
 
-Invoca `agente-calendario`, indicándole el mes/año, la ruta de `briefing.md` y la
-ruta de salida `output/[mes-año]/calendario.md`. Este agente, además de escribir
-`calendario.md`, genera un Google Sheets con el mismo contenido y lo envía por
-correo a `arivas@visualms.com` para validación. Cuando termine:
+Invoca `agente-calendario`, indicándole el mes/año, la ruta de `briefing.md`, la de
+`retro.md` y la ruta de salida `output/[mes-año]/calendario.md`. Este agente escribe
+`calendario.md` y genera sus slides con `scripts/slides.py`. Cuando termine:
 
 - Lee `output/[mes-año]/calendario.md` y verifica tú mismo, de un vistazo, que
   existe la sección "Resumen de distribución" y que no hay señales obvias de
   incumplimiento grosero (huecos vacíos, menos de 5 perfiles representados).
 - Traslada la sección "Decisiones de calendario para el log" del propio
   `calendario.md` al log de decisiones del mes, bajo "Construcción del calendario".
-- Añade al log, bajo "Validación del calendario (Fase 2)", que el Google Sheets se
-  generó y el correo se envió a `arivas@visualms.com` (con la fecha/hora y el
-  enlace si lo tienes disponible).
-- **Detente aquí.** No invoques a ningún `agente-redactor` todavía. En tu respuesta
-  de esta misma conversación, dile al usuario que el calendario está listo, que se
-  ha enviado por correo a `arivas@visualms.com` para validación, y que el
-  pipeline queda a la espera de su confirmación **aquí** antes de continuar con la
-  Fase 3. Pega también el calendario completo en markdown en el chat, para que pueda
-  revisarlo sin abrir el correo.
+- Haz commit y push, y envía a `arivas@visualms.com` (Gmail) un correo corto con el enlace
+  a las slides (`https://github.com/arivas-web/visualtrans.linkedin/raw/main/<ruta>`), el
+  resumen y los 3 cambios principales del retro. Si el correo no sale, dilo en el chat.
+- Añade al log, bajo "Validación del calendario (Fase 2)", la ruta de las slides y si el
+  correo salió.
+- **Detente aquí.** No invoques a ningún `agente-redactor` todavía. En el chat, pásale
+  al usuario las slides (archivo + enlace), en dos o tres frases qué cambia respecto a lo
+  que no funcionó, y pregúntale si lo ves bien o qué cambia. **No pegues el calendario
+  en otro formato** (ni tabla larga, ni Sheets, ni artifact): la entrega son las slides.
 
 ### Reanudación tras la validación
 
 Cuando el usuario confirme en un mensaje posterior de esta misma conversación (p.
 ej. "válido", "adelante", "aprobado"), continúa directamente con la Fase 3 sin
 volver a invocar `agente-calendario`. Si en cambio pide cambios sobre el
-calendario, vuelve a invocar `agente-calendario` con instrucciones concretas de
-corrección; deja que regenere `calendario.md` y reenvíe el Google Sheets por
-correo, actualiza el log, y vuelve a detenerte a la espera de una nueva
+calendario, apunta primero en `input/aprendizajes/No_Repetir.md` lo que no le ha
+gustado (si es algo que no hay que repetir) y luego vuelve a invocar `agente-calendario`
+con instrucciones concretas de corrección; deja que regenere `calendario.md` y sus slides,
+pásale las nuevas slides, actualiza el log, y vuelve a detenerte a la espera de una nueva
 validación. No asumas ni simules nunca una validación implícita: si el usuario
 no se ha pronunciado todavía sobre el calendario, el pipeline permanece pausado
 en la Fase 2, sin excepción.
@@ -136,39 +150,22 @@ archivo de salida) — lánzalas en paralelo en la misma respuesta para no seria
 innecesariamente el trabajo. En el prompt de cada tarea, indica explícitamente:
 - Qué perfil le toca (con su nombre exacto tal como aparece en `calendario.md`).
 - La ruta de `output/[mes-año]/calendario.md`.
+- Que lea `input/aprendizajes/No_Repetir.md`, `Diario.md` y `output/[mes-año]/retro.md`.
 - La ruta de salida esperada `output/[mes-año]/posts/[perfil].md`.
 
 Cuando las cinco terminen, revisa si alguna devolvió una sección "Notas de redacción
 para el log" y trasládala al log de decisiones bajo "Redacción por perfil".
 
-## Fase 3.5 — Presentación (no bloqueante)
+## Fase 3.5 — Slides de los posts (no bloqueante)
 
-Invoca `agente-presentacion`, indicándole la ruta del mes (`output/[mes-año]/`). Este
-agente construye automáticamente, sin que haga falta pedirlo cada mes, un `.pptx`
-con un post por diapositiva (portada + una por fila de `calendario.md`, en orden
-cronológico), para que el usuario pueda revisar visualmente el contenido redactado
-de un vistazo. **No es un punto de parada**: a diferencia de la Fase 2, no esperes
-confirmación del usuario sobre esta presentación — continúa directamente a la
-Fase 4 en la misma ejecución.
+Invoca `agente-presentacion`, indicándole la ruta del mes (`output/[mes-año]/`). Genera
+`output/[mes-año]/posts-[mes-año].pptx` con `scripts/slides.py`: portada, "Qué aprendimos y
+qué cambia", tabla de un vistazo y un post por diapositiva. **No es un punto de parada**:
+continúa a la Fase 4. Si el validador obliga a regenerar algún post, vuelve a generar las
+slides al final para que siempre reflejen la última versión.
 
-**Entrega del archivo:** no existe una forma fiable de subir el `.pptx` a Google
-Drive con conversión nativa a Slides desde una llamada a herramienta (el contenido
-binario en base64 es demasiado grande para transcribirse sin corromperse a partir de
-unas pocas decenas de diapositivas — ya se intentó y falló). En su lugar, cuando
-`agente-presentacion` te devuelva la ruta del `.pptx` generado, entrégaselo tú mismo
-al usuario directamente como archivo en la conversación (con tu herramienta de envío
-de archivos), no como enlace de Drive. Si además generó una vista previa navegable,
-compártela también dejando claro que es solo una vista previa.
-
-Cuando termine:
-- Añade al log de decisiones, bajo una nueva sección "Presentación", que se generó
-  el `.pptx` y se entregó al usuario como archivo, y confirmación de que las
-  diapositivas de "Casos de éxito" quedaron como placeholder sin redactar.
-- Si el usuario, tras revisar la presentación en un turno posterior, pide cambios
-  sobre algún post o sobre el calendario, resuélvelos como en cualquier otro punto
-  del pipeline (nueva invocación de `agente-redactor` o `agente-calendario` según
-  corresponda) — no regeneres la presentación como primer paso, solo el contenido;
-  puedes regenerarla al final si el usuario la quiere actualizada.
+Añade al log de decisiones, bajo "Presentación", la ruta del `.pptx` y la confirmación de
+que los casos de éxito quedaron como placeholder.
 
 ## Fase 4 — Validación final
 
@@ -207,14 +204,11 @@ ficheros sueltos):
 1. Un resumen de 3-5 líneas: mes cubierto, nº de posts totales, distribución real
    de pilares, pain prioritario del mes, y el resultado de `agente-validador`
    (incluida cualquier incidencia sin resolver, si la hay).
-2. El calendario completo en markdown, pegado directamente en tu respuesta (no
-   solo como referencia a archivo).
-3. El `.pptx` generado en la Fase 3.5, entregado directamente como archivo en la
-   conversación, para que la revisión visual sea de un vistazo.
-4. Los posts completos, pegados en el chat (agrupados por perfil y en orden de
-   fecha), y las rutas del resto de archivos (`briefing.md`, `validacion.md`,
-   `log-decisiones.md`).
-5. **Detente aquí.** Dile explícitamente al usuario que necesitas su aprobación
+2. Las slides de la Fase 3.5 (archivo en el chat + enlace
+   `https://github.com/arivas-web/visualtrans.linkedin/raw/main/<ruta>`, tras commit y
+   push). **Es la única entrega de los posts**: no los pegues además en otro formato
+   (ni artifact, ni documento, ni texto largo en el chat).
+3. **Detente aquí.** Dile explícitamente al usuario que necesitas su aprobación
    sobre el contenido redactado antes de generar el fichero para gráficas, y que
    basta con una confirmación corta (p. ej. "aprobado").
 
@@ -260,8 +254,9 @@ ej. "aprobado", "perfecto", "adelante"):
    `output/[mes-año]/graficas.csv`. Si el workflow falla o no llega nada en un tiempo
    razonable, explícaselo con el detalle técnico. Las imágenes se generan **siempre** con
    esa rutina del compañero, nunca con el Magnific de esta sesión.
-7. **Entrega en el chat** una tabla con cada post (ID, fecha, perfil, pilar) y el enlace
-   a su imagen, señalando las filas en `error` o `pendiente` con su motivo. Después
+7. **Entrega las slides finales**: añade `IMAGEN: <url>` de `graficas.csv` a la cabecera de
+   cada post, regenera las slides con `scripts/slides.py` y pásaselas (archivo + enlace).
+   En el chat, solo las filas en `error` o `pendiente` con su motivo. Después
    pregunta si quiere que lo programe en Metricool (`/programar-metricool AAAA-MM`, con su
    OK explícito).
 
@@ -297,6 +292,10 @@ bloquea la ejecución: es un registro para auditoría posterior.
 ## Requiere revisión (INBOX ambiguo o contradictorio)
 ...
 
+## Retro (Fase 1.5)
+- Funcionó / No funcionó / Qué cambiamos:
+- Entradas nuevas en No_Repetir:
+
 ## Investigación del mes
 - Tendencias elegidas y por qué:
 - Pain prioritario del mes y criterio usado:
@@ -306,7 +305,7 @@ bloquea la ejecución: es un registro para auditoría posterior.
 - Decisiones de relleno de huecos, asignación de pains nuevos, etc.
 
 ## Validación del calendario (Fase 2)
-- Fecha/hora de envío del correo a arivas@visualms.com y enlace al Google Sheets:
+- Slides del calendario y si salió el correo a arivas@visualms.com:
 - Resultado de la validación del usuario (aprobado / cambios solicitados):
 - Si hubo cambios solicitados, ronda(s) de corrección y reenvío:
 

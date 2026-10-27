@@ -26,6 +26,10 @@ Extrae de la petición:
 
 ## 2. Reunir el material (sin inventar nada)
 
+Antes que nada, lee `input/aprendizajes/No_Repetir.md` y `input/aprendizajes/Diario.md`. Si el tema
+pedido está quemado o ya se contó en los últimos 30 días, díselo al usuario en una frase y
+proponle otro ángulo; si insiste, se hace (su criterio manda), con un ángulo distinto al anterior.
+
 Lee lo que haga falta de `input/` (`empresa/`, `eventos/Eventos_Campañas.txt`,
 `noticias/Noticias_Sector.txt`, `inbox/INBOX_procesado.md`). Si el tema necesita datos actuales que
 no estén ahí, búscalos en la web y quédate solo con lo verificado, anotando la fuente. Los datos,
@@ -54,9 +58,13 @@ más de 2 apariciones del pain en el mes). Avisa, no decidas por el usuario.
 
 ## 5. Primera confirmación: el texto
 
-Pega el post completo **en el chat** (no solo la ruta), con el pilar deducido y los avisos si los
-hay. Pregunta si está bien o qué cambiar y no sigas sin un OK claro. Si pide cambios, vuelve a
-invocar al redactor y repite el paso 4.
+Genera las slides del suelto (mismo formato que todo lo demás):
+`python3 -I scripts/slides.py --titulo "Post suelto · [perfil]" --posts output/sueltos/.../post.md --salida output/sueltos/.../post.pptx`,
+haz commit y push, y pásaselas (archivo + enlace
+`https://github.com/arivas-web/visualtrans.linkedin/raw/main/<ruta>`). Como es un solo post y hay
+que iterar rápido, pega además el texto en el chat. Pregunta si está bien o qué cambiar y no sigas
+sin un OK claro. Si pide cambios, apunta en `input/aprendizajes/No_Repetir.md` lo que no le ha
+gustado (si es algo que no hay que repetir), vuelve a invocar al redactor y repite el paso 4.
 
 ## 6. Segunda confirmación: gráfica y Metricool
 
@@ -103,9 +111,10 @@ ni invoques aquí a `subagente-noticias` / `subagente-pains`.
 
 ## 8. Guardar y enseñar el resultado en el chat
 
-Guarda en la carpeta del suelto `imagen.md` con el enlace de la imagen, el ID y el estado, y haz
-commit y push a `main`. Después, en el chat, entrega el resultado completo: el **post escrito** y
-el **enlace a la imagen** (o "sin gráfica" si no se pidió).
+Guarda en la carpeta del suelto `imagen.md` con el enlace de la imagen, el ID y el estado, añade
+`IMAGEN: <url>` a la cabecera de `post.md`, regenera `post.pptx` y haz commit y push a `main`.
+Después, en el chat, entrega el resultado completo: las slides, el **post escrito** y el
+**enlace a la imagen** (o "sin gráfica" si no se pidió).
 
 ## 9. Metricool (solo si lo ha pedido)
 
