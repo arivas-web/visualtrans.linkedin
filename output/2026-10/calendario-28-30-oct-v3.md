@@ -3,3 +3,5 @@
 13 posts. Basado en el análisis de impresiones del 27-oct y en el top 10 histórico por cuenta.
 Cambios frente a la propuesta anterior: pulsera de actividad fuera (537 impresiones, repetida en dos perfiles), Tariff Code con producto distinto en cada perfil, curiosidad con dato en Laura y Cecilio, micro-historia en Enrique, persona o equipo con nombre en Visual Trans (viernes), cierres con pregunta de una línea y 500-800 caracteres.
 Detalle en `calendario-28-30-oct-v3.csv`.
+
+Actualización 27-oct: el post de Emma del miércoles 28 (pain #4) se sustituye por un dato curioso (6, 8 y 10 dígitos del código arancelario), texto en `emma-28-oct-dato-curioso.md`. El viernes 30 de Visual Trans se deja tal cual: lo cubre el usuario con un caso de éxito.
