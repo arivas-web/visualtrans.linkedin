@@ -651,3 +651,46 @@ Pero lo que me interesa es lo que vivís vosotros.
 ¿Ya notáis esta subida en vuestras tarifas? ¿Cuál ha sido el último flete que os ha cambiado de un día para otro?
 
 Os dejo la noticia en el primer comentario 👇
+
+
+=== VT-2026-10-29-cbam-mitos ===
+FECHA: 2026-10-29
+PERFIL: Visual Trans
+PILAR: Noticia
+FORMATO: imagen
+TEXTO:
+Mito: "El CBAM es cosa de 2027."
+Realidad: la primera declaración anual vence el 30 de septiembre de 2027, y se hace con las importaciones de este año.
+
+Mito: "Los certificados se compran y ya está."
+Realidad: se compran desde febrero de 2027, y el coste de 2026 es retroactivo.
+
+Mito: "Solo afecta a quien importa acero."
+Realidad: el Anexo I incluye también aluminio, cemento y fertilizantes, entre otras mercancías. Afecta a quien importa y a su representante aduanero.
+
+Lo que se importa hoy es lo que se declarará entonces.
+
+Fuente en el primer comentario 👇
+
+¿Cuál de estos tres mitos has oído esta semana?
+
+
+=== ENRIQUE-2026-10-29-ics2-opinion ===
+FECHA: 2026-10-29
+PERFIL: Enrique Saa
+PILAR: Noticia
+FORMATO: imagen
+TEXTO:
+ICS2 ya no es una novedad. Y seguimos tratándolo como si lo fuera.
+
+Desde el 1 de enero de 2026, todas las fases son obligatorias. Desde el 1 de junio, también se aplica en Polonia, Croacia, Letonia, Rumanía y Eslovaquia.
+
+Mi postura: esperar a que te lo pida el cliente o el transportista es llegar tarde. Cumplir con ICS2 no es una tarea de una vez, es tener el sistema al día cada vez que algo cambia.
+
+Y cambia.
+
+Si tu software te obliga a pedir cada adaptación, el problema no es la norma. Es el software.
+
+Fuente en el primer comentario 👇
+
+¿Sigues viendo ICS2 como algo que "está por llegar"?
