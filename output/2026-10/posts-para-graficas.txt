@@ -701,8 +701,6 @@ PERFIL: Enrique Saa
 PILAR: Noticia
 FORMATO: imagen
 TEXTO:
----
-
 Una hora menos de espera en los puertos liberaría más de 400 millones de euros al año.
 
 Es la estimación de Ocean Capital Partners para España, y la cifra sale de un dato que conoces bien: lo que espera un camión en el acceso.
