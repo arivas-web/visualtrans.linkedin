@@ -138,3 +138,11 @@ plantilla de cabecera al añadir la primera entrada real. -->
 - Estado: Tentativo
 - Fuente: INBOX
 - Notas: Entran en vigor aranceles del 10 % (investigación sobre trabajo forzoso, Sección 301), que sustituyen al arancel global temporal del mismo porcentaje. Afecta a agroalimentación, maquinaria y moda. Situación posterior a julio sin confirmar. Fuente: https://www.que.es/2026/07/24/aranceles-trump-ue-2026/
+
+## Restricción editorial - Sin DeCA, eCMR, factura electrónica ni Verifactu (feedback de Adrián)
+- Tipo: Restricción editorial del calendario (feedback de Adrián)
+- Fecha(s): desde 20/10/2026, para los calendarios siguientes al de 21-31 oct
+- Relevancia: Todos los perfiles — agente-calendario y agente-redactor deben excluir estos temas
+- Estado: Activo
+- Fuente: INBOX
+- Notas: Adrián pide no más posts sobre DeCA ni eCMR y no hablar de factura electrónica ni Verifactu. Apoyar los siguientes calendarios en lo que más ha funcionado en los últimos meses. Avisar a Adrián del enfoque antes de generar un calendario nuevo. Esto prevalece sobre la entrada "## DeCA obligatorio" a efectos de calendario (esa entrada se conserva como histórico).
