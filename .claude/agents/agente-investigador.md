@@ -57,6 +57,14 @@ genera. Busca ese estilo, no solo la normativa seca:
   repiten seguidos entre noticias del mismo mes.
 - Verifica siempre cifras y fechas con fuente; si no se puede, márcalo.
 
+## Un solo post por tema normativo (criterio del usuario, 2026-10-29)
+
+Cada novedad normativa (CBAM, ICS2, H7/PID, CAU, fin de la franquicia de 150 €...) se
+cuenta **una sola vez**, el día que llega, en un único post de un único perfil. No
+propongas secuencias ni varios ángulos de la misma norma repartidos entre perfiles.
+Si una norma da para más, déjalo como "posible segunda pieza solo si hay un hecho nuevo".
+Prioriza en su lugar noticias con pegada y curiosidades distintas.
+
 ## Objetivo de negocio (no lo pierdas de vista)
 
 100.000 impresiones/mes en los perfiles de Visual Trans / Visual MS. Todo lo que

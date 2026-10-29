@@ -69,6 +69,10 @@ Si `agente-archivista` ha añadido pains nuevos numerados >20 sin asignación de
 perfil explícita, asígnalos por criterio de coherencia temática con la lista anterior
 y documenta la asignación en el log de decisiones (ver "Salida").
 
+## Un solo post por tema normativo (obligatorio)
+
+Cada tema normativo (CBAM, ICS2, H7/PID, CAU, franquicia de 150 €...) aparece **una sola vez** en el mes, el día que llega, en un solo perfil. Nada de secuencias entre perfiles ni ángulos repetidos de la misma norma. Los pains que toquen normativa se plantean sin citar una norma concreta. Si faltan noticias para completar el 60 %, deja el hueco marcado como "pendiente de noticia con pegada o curiosidad" en vez de repetir normativa.
+
 ## Reglas de no-solapamiento de pains (obligatorias, sin excepción)
 
 - Nunca el mismo pain en el mismo día en dos perfiles distintos.
