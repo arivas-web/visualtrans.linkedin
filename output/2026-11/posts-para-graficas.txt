@@ -1,0 +1,566 @@
+=== 2026-11-001 ===
+FECHA: 2026-11-02
+PERFIL: Enrique Saa
+PILAR: Pain
+FORMATO: texto
+TEXTO:
+La licencia perpetua se paga una vez. La normativa cambia cada mes.
+
+Ahí empieza el problema. Compras una versión, la instalas y funciona. Pero el sector no se queda quieto.
+
+Aduanas, sumarias, requisitos nuevos de las administraciones. Todo se mueve, y la versión que compraste hace años sigue siendo la misma.
+
+¿Quién la actualiza cuando llega el cambio? Esa es la pregunta que casi nadie se hace en el momento de firmar.
+
+Muchas veces la respuesta es un presupuesto aparte, una espera de meses o un parche a medias. Mientras tanto, tu equipo trabaja con lo que hay.
+
+Por eso el modelo importa tanto como la herramienta. Un software que evoluciona contigo no es un lujo; es lo que te permite no depender de una versión congelada.
+
+No es solo cuánto pagas hoy. Es qué recibes mañana.
+
+👇 Te dejo en el primer comentario cómo lo vemos desde Visual Trans.
+
+=== 2026-11-002 ===
+FECHA: 2026-11-02
+PERFIL: Laura Díaz
+PILAR: Pain
+FORMATO: texto
+TEXTO:
+Facturas 3.200 €. Te quedan 40.
+
+Es un ejemplo, pero seguro que te suena. Una operación que sale "bien": el cliente paga, el embarque llega, nadie reclama.
+
+Y aun así, cuando sumas el flete real, el recargo que llegó tarde, la demora y las horas que le dedicó tu equipo, el margen es casi cero. O negativo.
+
+No es un problema de ventas. Es un problema de visibilidad. Si no ves el margen de cada operación, no sabes qué clientes te dan de comer y cuáles te cuestan dinero.
+
+Seamos claros: vender más sin esa cuenta es correr más rápido sin saber hacia dónde.
+
+¿De las operaciones de este mes, cuántas sabrías decir hoy si ganaron o perdieron dinero?
+
+#nosgustaelfuturo
+
+=== 2026-11-003 ===
+FECHA: 2026-11-02
+PERFIL: Visual Trans
+PILAR: Noticia
+FORMATO: imagen (infografía con un solo dato)
+TEXTO:
+Desde el 1 de noviembre, el PID es obligatorio en las H7.
+
+Las validaciones ya están activas, lo informes en cabecera o en partidas.
+
+Si ayer no era tu día de declarar, hoy toca comprobar que tu sistema lo tiene en cuenta.
+
+Un dato pequeño que, si falla, devuelve la declaración.
+
+=== 2026-11-004 ===
+FECHA: 2026-11-03
+PERFIL: Cecilio Labrada
+PILAR: Noticia
+FORMATO: multiimagen (carrusel de datos)
+TEXTO:
+34 millones de TEU. Esa es hoy la flota mundial de portacontenedores.
+
+Para llegar a los últimos 10 millones (+42 %) han hecho falta cinco años y medio. La vez anterior, diez años y medio. Los datos son de Alphaliner, a través de Anave y Bimco.
+
+Y no es solo que se construya más. Se recicla poco, las entregas están en récord y la cartera de pedidos pasa de los 14 millones de TEU hasta 2030.
+
+Pero el tamaño de la flota cuenta solo una parte de la historia. Más barcos no significan que tu contenedor llegue antes ni más barato. Eso depende de cómo se gestione cada operación en tierra, con la información en tiempo real y sin apagar fuegos por correo.
+
+La flota crece más deprisa que la vez anterior. La pregunta es si nuestra operativa crece igual de rápido.
+
+=== 2026-11-005 ===
+FECHA: 2026-11-03
+PERFIL: Emma González
+PILAR: Pain
+FORMATO: texto
+TEXTO:
+Un número de contenedor. Cuatro veces.
+
+Una en el ERP. Otra en la declaración. Otra en el correo al cliente. Y otra más para archivarlo.
+
+Hagamos la cuenta con un ejemplo, cifras redondas: tres minutos por cada vez son doce minutos por expediente. Con veinte expedientes al día, cuatro horas. Cuatro horas de alguien tecleando lo que ya estaba escrito.
+
+Y lo peor de todo es que no es solo tiempo. Cada vez que se teclea, hay una oportunidad de equivocarse en un dígito. Y ese dígito cuesta una llamada, una corrección y, a veces, un retraso.
+
+Eso me parece un problema de diseño, no de competencia de quien teclea.
+
+El dato se escribe una vez y viaja solo. Ese es el valor real.
+
+¿Cuántas veces teclea tu equipo hoy el mismo dato?
+
+=== 2026-11-006 ===
+FECHA: 2026-11-03
+PERFIL: Visual Trans
+PILAR: Noticia
+FORMATO: imagen + texto corto (historia y reflexión)
+TEXTO:
+El invento más aburrido del mundo.
+
+Así se ha llamado muchas veces al contenedor. Una caja de metal. Sin pantallas, sin algoritmos.
+
+En 1956, Malcom McLean cargó el Ideal X con esas cajas y el coste de cargar un barco pasó de 5,86 $ a 0,16 $ por tonelada.
+
+La mayor innovación logística del siglo XX no fue digital. Fue ponerse de acuerdo en el tamaño de una caja.
+
+A veces lo que más cambia el sector es lo que menos luce.
+
+=== 2026-11-007 ===
+FECHA: 2026-11-04
+PERFIL: Cecilio Labrada
+PILAR: Pain
+FORMATO: texto
+TEXTO:
+"Cotizo de memoria y me sale bien."
+
+Lo he oído muchas veces en mis años en el sector. Y casi siempre lo dice alguien que sabe de verdad lo que hace.
+
+Pero la memoria es selectiva. Recuerda las operaciones que salieron redondas y se olvida de las que acabaron con el margen justo, o sin margen. Sin contar las veces que nadie llegó a calcularlo.
+
+MITO: si el precio parece razonable, la operación es rentable.
+
+REALIDAD: sin cotización formal desde el origen no sabes cuánto ganas hasta que ya has dicho que sí. Y entonces ya no hay nada que corregir.
+
+El problema no es que cotices mal. El problema es que no tienes forma de comprobarlo. Y cuando el margen no se ve al cotizar, tampoco se ve después.
+
+Por eso en Visual Trans la cotización parte de los costes: el margen aparece antes de enviar la propuesta, no al cerrar el mes.
+
+Porque al final, no se trata de cotizar más rápido, sino de saber lo que ganas antes de decir que sí.
+
+=== 2026-11-008 ===
+FECHA: 2026-11-04
+PERFIL: Enrique Saa
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+Malaca mide unos 2,8 km en su punto más estrecho.
+
+Por ahí pasa buena parte del comercio entre Asia, Europa y Oriente Próximo. Un estrecho que cabe en una foto y sostiene media cadena de suministro.
+
+No es el único. El comercio marítimo depende de un puñado de embudos:
+
+✔️ Malaca, la puerta entre el Índico y el Pacífico.
+✔️ Suez, el atajo entre Asia y Europa.
+✔️ Panamá, la conexión entre el Atlántico y el Pacífico.
+✔️ Ormuz y Bab-el-Mandeb, la energía y el Mar Rojo.
+
+Cuando uno se atasca, no se entera solo el armador. Se entera el transitario que tiene que explicar al cliente por qué su contenedor llega tarde y qué alternativa hay.
+
+Por eso conviene tener el mapa en la cabeza. Y tener la operativa preparada para cambiar de ruta sin perder el control del envío.
+
+Pocos puntos en el mapa. Mucha dependencia.
+
+👇 Te dejo la fuente del dato en el primer comentario.
+
+=== 2026-11-009 ===
+FECHA: 2026-11-04
+PERFIL: Laura Díaz
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+Madrid va a tener taxis sin conductor. Bueno, casi.
+
+Uber y WeRide empiezan a probar en la ciudad unos 20 vehículos autónomos, con un conductor de seguridad a bordo. El primer servicio comercial está previsto para finales de este año.
+
+No es nuestro sector, lo sé. Pero a veces lo que pasa con el pasajero acaba pasando con la mercancía unos años después.
+
+Hoy se prueba con personas, con tráfico real y con un humano al lado por si algo falla. Mañana alguien hará la misma pregunta con un palé en vez de un pasajero.
+
+Mi apuesta: antes de ver camiones sin conductor cruzando fronteras, veremos autónomos en la última milla, en trayectos cortos y muy controlados.
+
+¿Tú cuándo crees que llegará esto a la última milla? ¿Y al comercio internacional?
+
+=== 2026-11-010 ===
+FECHA: 2026-11-05
+PERFIL: Emma González
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+En 1992, un carguero perdió un contenedor en el mar.
+
+Dentro iban 28.800 juguetes de baño: patitos, ranas, castores y tortugas de plástico. Los Friendly Floatees.
+
+Lo que parecía un accidente más acabó siendo un experimento que nadie había diseñado. Los patitos fueron apareciendo en playas de Alaska, Australia, Hawái, y alguno incluso llegó a cruzar el Ártico. Los oceanógrafos se pusieron a seguirlos y, con cada aparición, las corrientes oceánicas dibujaban un poco mejor su mapa.
+
+A mí me encanta esta historia porque lo cuenta todo: en logística, a veces lo que se pierde por el camino enseña más que lo que llega a destino.
+
+Y el contenedor, mientras tanto, solo hacía su trabajo.
+
+¿Conocías la historia de los patitos?
+
+=== 2026-11-011 ===
+FECHA: 2026-11-05
+PERFIL: Enrique Saa
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+Si importas productos críticos, esta consulta te interesa.
+
+La Comisión Europea ha abierto una consulta pública para diversificar las cadenas de suministro y reducir dependencias. Hay un paquete legislativo en camino, así que conviene mirar hacia dónde apunta.
+
+Mi opinión, sin rodeos: no hace falta esperar al texto final para prepararse. Hay tres cosas que puedes revisar ya:
+
+✔️ De qué orígenes dependen tus operaciones más sensibles.
+✔️ Qué rutas alternativas tienes si una se complica.
+✔️ Si tu sistema te deja operar con orígenes y proveedores nuevos sin rehacer el proceso.
+
+Son comprobaciones sencillas que, hechas hoy, te evitan las prisas cuando el texto ya esté publicado.
+
+Diversificar suena bien en un documento. En la práctica significa más orígenes, más rutas y más trámites que controlar.
+
+Para que no te pille el toro, mejor ir viéndolo antes de que llegue la norma.
+
+👇 Te dejo el enlace a la consulta en el primer comentario.
+
+=== 2026-11-012 ===
+FECHA: 2026-11-05
+PERFIL: Laura Díaz
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+Un paquete de pañales puede hacer temblar una fábrica.
+
+Lo llaman el efecto látigo y se enseña con casos como los pañales de Pampers o el papel higiénico. Un repunte pequeño de demanda en tienda (en los ejemplos que se suelen citar, algo así como un 5 %) y, varios eslabones más arriba, se está produciendo el doble.
+
+Funciona como el teléfono roto. Cada eslabón recibe el mensaje, le añade un poco de miedo a quedarse sin stock y se lo pasa al siguiente. Cuando llega al principio de la cadena, ya no se parece a lo que pidió el cliente.
+
+Y lo curioso: nadie miente. Cada uno pide un poco más "por si acaso".
+
+No es un problema de previsión. Es un problema de información que no viaja. Cuando proveedor y cliente ven el mismo dato a la vez, el miedo pierde combustible.
+
+¿Cuánta de la demanda que ves en tu cadena es real y cuánta es prudencia acumulada?
+
+=== 2026-11-013 ===
+FECHA: 2026-11-05
+PERFIL: Visual Trans
+PILAR: Pain
+FORMATO: carrusel (escena de jornada)
+TEXTO:
+"Ha cambiado algo en la AEAT y no me deja presentar."
+
+Así empieza la llamada. Al otro lado no hay un guion ni una cola de tickets sin cara.
+
+Hay alguien de soporte que sabe qué versión ha entrado, qué toca en esa pantalla y qué estaba haciendo el cliente justo antes.
+
+Porque ha trabajado con transitarios. Y entiende por qué esa declaración no puede esperar a mañana.
+
+Mientras tanto, el resto del equipo ya está revisando el cambio, para que la siguiente llamada sea más corta que esta.
+
+No es solo resolver una incidencia; es entender el día de quien llama.
+
+Pasa por el carrusel y mira cómo es una jornada así 👇
+
+=== 2026-11-014 ===
+FECHA: 2026-11-06
+PERFIL: Cecilio Labrada
+PILAR: Noticia
+FORMATO: multiimagen (carrusel de datos, ranking)
+TEXTO:
+Cinco navieras. Dos de cada tres contenedores.
+
+Es lo que dice el ranking de las 20 mayores navieras de 2026 que publica Alphaliner a 18 de octubre. MSC sigue en cabeza con el 21,5 % de la capacidad, unos 7,45 millones de TEU.
+
+Pero lo interesante no está solo arriba. Yang Ming adelanta a ZIM y, a la vez, Hapag-Lloyd compra ZIM. El mapa se mueve y se concentra.
+
+Mi opinión: el problema no es que haya pocas navieras. El problema es lo que significa para el transitario pequeño y mediano sentarse a negociar frente a ellas. Cada vez cuenta más tener claros tus números, tus costes y tus volúmenes por cliente.
+
+Os dejo el ranking completo en el carrusel.
+
+¿Notáis ya esa concentración cuando negociáis con las navieras o todavía no se nota en el día a día?
+
+=== 2026-11-015 ===
+FECHA: 2026-11-06
+PERFIL: Emma González
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+21 % de oxígeno en el aire que respiras. Entre 2 % y 5 % en un contenedor de plátanos.
+
+Es la diferencia entre una fruta que madura en el barco y otra que llega verde a su destino.
+
+En un reefer de atmósfera controlada se baja el oxígeno a propósito para que la fruta, en cierto modo, se quede dormida. Así un plátano de Ecuador puede estar de viaje alrededor de un mes y llegar todavía verde, listo para madurar cuando toca.
+
+No se trata solo de mantener el frío. Se trata de controlar el aire que hay dentro de la caja.
+
+La próxima vez que te comas un plátano, piensa que ha hecho un viaje más sofisticado que el tuyo del último puente 🍌
+
+=== 2026-11-016 ===
+FECHA: 2026-11-09
+PERFIL: Emma González
+PILAR: Pain
+FORMATO: texto
+TEXTO:
+Antes: el cliente pide el BL y alguien abre el correo.
+
+Busca en la bandeja de entrada. Luego en enviados. Luego en esa carpeta de "Varios" que nadie recuerda haber creado. Y al final, en el PDF que se llama "scan0034".
+
+Después: el documento está en el expediente, con su nombre, en su sitio, y se recupera en pocos segundos.
+
+La diferencia parece pequeña, pero no lo es. Un documento que no aparece a tiempo puede retrasar la factura, y una factura retrasada es un cobro que no llega.
+
+Lo que de verdad se cuece en una operación no está en el correo de nadie. Está en el expediente, a la vista de todo el equipo.
+
+¿Te suena esta película?
+
+=== 2026-11-017 ===
+FECHA: 2026-11-09
+PERFIL: Laura Díaz
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+Halloween. Black Friday. Cyber Monday. Navidad. Devoluciones. Rebajas.
+
+Según Packlink, la temporada alta del e-commerce ya no es una fecha en el calendario. Va de finales de octubre hasta bien entrado enero. Más de dos meses sin respirar.
+
+Y el reto no es solo cuánta demanda llega. Es la complejidad que arrastra cada envío internacional: aduanas, normativa que cambia, documentación que tiene que estar bien a la primera.
+
+No es un pico. Es una meseta.
+
+Un pico se aguanta a base de horas extra. Una meseta, no. Ahí lo que de verdad aguanta es un proceso que no depende de que alguien se acuerde de todo.
+
+Y en enero llegan las devoluciones
+
+=== 2026-11-018 ===
+FECHA: 2026-11-09
+PERFIL: Visual Trans
+PILAR: Noticia
+FORMATO: imagen (infografía con un solo dato, comparación)
+TEXTO:
+FOB.
+
+Tres letras. Y antes de 1936, tres significados.
+
+En Londres querían decir una cosa. En Nueva York, otra. Y en Amberes, una tercera.
+
+Dos empresas podían cerrar una venta convencidas de que hablaban de lo mismo y descubrir en el puerto que no.
+
+La CCI tardó más de una década en ponerlos de acuerdo.
+
+Hablar el mismo idioma del sector nunca ha sido un detalle.
+
+=== 2026-11-019 ===
+FECHA: 2026-11-10
+PERFIL: Cecilio Labrada
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+¿Qué propulsión crees que llevan los barcos que se están encargando ahora?
+
+La cartera de pedidos de portacontenedores supera ya los 15 millones de TEU. Alphaliner calcula que rozará los 16 millones a final de año.
+
+Y el reparto sorprende. El GNL es el 56 % del tonelaje encargado. El metanol, el 12 %. La propulsión convencional ya es menos del 32 % de la cartera.
+
+Dicho de otra forma: casi todo lo que viene ya nace con otro combustible.
+
+Pero un barco se encarga hoy y navega durante décadas. Eso significa que durante mucho tiempo convivirán flotas muy distintas, con costes de operación que no son iguales.
+
+Y esa diferencia, tarde o temprano, acaba llegando a la cotización.
+
+¿Cómo creéis que se repercutirá al cliente final?
+
+=== 2026-11-020 ===
+FECHA: 2026-11-10
+PERFIL: Enrique Saa
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+Hay otra forma de traer mercancía de China, y no es ni el barco ni el avión.
+
+El tren de Yiwu a Madrid recorre unos 13.052 km. Cruza varios países y cambia de ancho de vía por el camino, con trasbordo de la carga incluido.
+
+Vamos a aterrizar la comparación:
+
+✔️ El mar es lo más barato, pero el más lento y el más expuesto a embudos y retrasos.
+✔️ El avión es lo más rápido, pero el más caro.
+✔️ El tren se queda en medio: más rápido que el barco y más económico que el avión.
+
+No es mejor ni peor. Es otra opción para cuando el mar se complica o el plazo aprieta.
+
+Eso sí, más opciones significan más cosas que controlar. Otro modo, otros documentos, otros plazos y otros costes que cuadrar.
+
+Tener las tres opciones sobre la mesa cuesta poco. Descubrirlas con el cliente esperando cuesta bastante más.
+
+👇 Te dejo más información sobre la ruta en el primer comentario.
+
+=== 2026-11-021 ===
+FECHA: 2026-11-10
+PERFIL: Visual Trans
+PILAR: Pain
+FORMATO: imagen única
+TEXTO:
+¿Cuántos días tiene tu proveedor para adaptarse cuando la AEAT avisa de un cambio con una semana de margen?
+
+La respuesta honesta es que debería ser cero.
+
+Porque el cambio no se prepara cuando llega el aviso. Se prepara antes, siguiendo de cerca lo que se mueve y hablando con quienes lo mueven.
+
+Si cada adaptación hay que pedirla y esperarla, esa semana de margen la pagas tú.
+
+¿Tu software se entera de los cambios antes que tú?
+
+=== 2026-11-022 ===
+FECHA: 2026-11-11
+PERFIL: Enrique Saa
+PILAR: Pain
+FORMATO: texto
+TEXTO:
+"Funciona. Más o menos, pero funciona."
+
+Lo he oído muchas veces cuando hablo con responsables de operaciones.
+
+Luego sigues la conversación y aparece lo demás. "Es que cada cosa hay que meterla dos veces." "Esto lo hace Marta porque es la única que sabe." "Cuando cambia la normativa, esperamos."
+
+Y cuando preguntas por qué no cambian, la respuesta casi siempre es la misma.
+
+"Si lo tocamos, se para todo."
+
+Lo entiendo. Un cambio de software da respeto: paradas, datos que se pierden, un equipo que no quiere volver a empezar.
+
+Pero seguir con lo que no funciona también tiene un coste. Solo que no sale en ninguna factura.
+
+Y mientras se aplaza la decisión, el equipo sigue haciendo a mano lo que el sistema debería hacer solo.
+
+El miedo al cambio es real. El coste de no cambiar, también.
+
+👇 Te dejo en el primer comentario cómo planteamos el cambio desde Visual Trans, paso a paso.
+
+=== 2026-11-023 ===
+FECHA: 2026-11-11
+PERFIL: Laura Díaz
+PILAR: Pain
+FORMATO: texto
+TEXTO:
+Hay tareas en tu equipo que no deberían existir.
+
+Piensa en lavar los platos a mano cuando tienes lavavajillas. Nadie lo hace por gusto; se hace porque siempre se hizo así.
+
+En una transitaria pasa igual. Copiar un dato de un sistema a otro. Montar a mano la misma documentación. Reenviar el mismo correo con otro adjunto. Perseguir un papel que ya existe en algún sitio.
+
+Cada una parece pequeña. Pero juntas se comen horas de cada día, y ese tiempo no se dedica a cotizar, a atender al cliente ni a vender.
+
+No es falta de gente. Es exceso de tareas que no suman nada.
+
+Lo más difícil no es automatizarlas. Es verlas, porque cuando llevas años haciéndolas ya las has normalizado.
+
+¿Cuál es la tarea que más te gustaría borrar de la lista mañana mismo? Te leo en comentarios. 👇
+
+#nosgustaelfuturo
+
+=== 2026-11-024 ===
+FECHA: 2026-11-12
+PERFIL: Cecilio Labrada
+PILAR: Noticia
+FORMATO: multiimagen (carrusel de datos)
+TEXTO:
+3.867 cargueros en 2045. O 3.460.
+
+Depende de a quién preguntes. La primera cifra es de Cargo Facts. La segunda, de Airbus. Son dos previsiones sobre la misma flota y no coinciden.
+
+Lo que sí comparten es el camino: la mayoría de esos aviones saldrán de conversiones de aviones de pasajeros. La carga aérea no está esperando fábricas nuevas, está buscando aviones donde los hay.
+
+Pero entre una previsión y otra hay más de 400 aviones de diferencia. Y quien planifica capacidad a largo plazo hace bien en no apostar a una sola cifra.
+
+Porque al final, no se trata de acertar el número, sino de tener información para reaccionar cuando el número cambie.
+
+¿Con cuál de las dos previsiones os quedáis?
+
+=== 2026-11-025 ===
+FECHA: 2026-11-12
+PERFIL: Emma González
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+¿Sabías que hay caballos que vuelan con pasaporte propio?
+
+Los de alta competición viajan en avión como cualquier deportista de élite, pero con su propia logística: establos desmontables dentro de la bodega, veterinario a bordo y documentación sanitaria a su nombre.
+
+Y aquí está lo que más me gusta: con un animal vivo no hay margen. Si un contenedor se retrasa una hora, se retrasa. Si un caballo se retrasa una hora, hay que haber previsto agua, descanso y quién lo atiende.
+
+Un protocolo al minuto, de verdad. Ese es el nivel de detalle que exige la carga viva.
+
+Y me pregunto si cualquier operación, con un animal o sin él, no ganaría con planificarse así.
+
+¿Cuál es la carga más rara que has gestionado tú?
+
+=== 2026-11-026 ===
+FECHA: 2026-11-12
+PERFIL: Laura Díaz
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+Un avión aterrizando cada 30 segundos.
+
+Berlín, 1948. La ciudad queda bloqueada por tierra y hay que abastecer a unos 2 millones de personas desde el aire. Durante meses.
+
+La clave no fueron más aviones. Fue el orden. Horarios clavados, rutas de entrada y de salida separadas, descargas en minutos y aviones que daban la vuelta sin quedarse esperando. Cada pieza de la cadena tenía que llegar a su hora, o toda la cadena se paraba detrás.
+
+Fue, en el fondo, un laboratorio de gestión de flotas hecho a la fuerza, con una crisis de verdad de por medio.
+
+A veces las crisis no inventan el método. Solo enseñan quién lo tenía ya.
+
+Si mañana tu operativa tuviera que aguantar un ritmo así, ¿sabrías dónde se atasca primero?
+
+=== 2026-11-027 ===
+FECHA: 2026-11-12
+PERFIL: Visual Trans
+PILAR: Noticia
+FORMATO: imagen + texto corto (curiosidad)
+TEXTO:
+Casi todos los buques tienen la panza roja.
+
+No es una cuestión de estilo. Es historia.
+
+Hace siglos se protegía el casco con brea. Después llegó el óxido de cobre, que mantiene a raya a algas y percebes, y de ahí viene la pintura antiincrustante que se usa hoy.
+
+Un casco limpio desliza mejor. Y un casco que desliza mejor gasta menos.
+
+Hasta el color de un barco tiene detrás una cuenta de consumo.
+
+=== 2026-11-028 ===
+FECHA: 2026-11-13
+PERFIL: Cecilio Labrada
+PILAR: Pain
+FORMATO: multiimagen (carrusel)
+TEXTO:
+Haz esta cuenta. Con lápiz y papel, como las de antes.
+
+1️⃣ ¿Cuántos clientes te dieron margen el año pasado? No facturación, margen.
+
+2️⃣ ¿Qué servicio te deja más por operación: aéreo, marítimo o terrestre?
+
+3️⃣ ¿Qué cliente te ocupa más horas de las que te devuelve?
+
+Si no puedes responder con seguridad a las tres, no es un problema de intuición. Es un problema de datos.
+
+Sabes que el negocio funciona. Lo que no puedes es cuantificarlo ni optimizarlo. Y sin números agregados, las decisiones sobre precios, clientes o contratar a alguien se toman a ojo.
+
+Pero el dato ya está en tu operativa. Está en cada cotización, en cada expediente, en cada factura. Solo que repartido en hojas de cálculo y correos que nadie suma.
+
+Sin datos agregados, la estrategia es una corazonada con buena presentación.
+
+¿Cuál de las tres preguntas te cuesta más contestar hoy?
+
+=== 2026-11-029 ===
+FECHA: 2026-11-13
+PERFIL: Enrique Saa
+PILAR: Noticia
+FORMATO: texto
+TEXTO:
+El sector logístico pesa un 9 % del PIB y emplea a más de 1,5 millones de personas.
+
+Aun así, le falta gente. Según Robert Walters, el problema ya no es solo cuántos profesionales hay, sino cuáles: faltan perfiles preparados para cadenas inteligentes y automatizadas.
+
+Esto es lo que se nota en el día a día:
+
+✔️ Cuesta encontrar a quien domine la operativa y la tecnología a la vez.
+✔️ Cuesta más retener a quien ya la domina.
+✔️ Cada persona nueva tarda en ser autónoma.
+
+Ninguna de las tres se arregla solo buscando más candidatos: también cuenta el entorno de trabajo.
+
+Por eso la herramienta importa. Un sistema intuitivo ayuda a que quien llega empiece antes, y quita carga a quien ya está y no quiere perderse en tareas repetitivas.
+
+El talento se busca fuera. Pero también se cuida con lo que le das para trabajar.
+
+👇 Te dejo el informe en el primer comentario.
