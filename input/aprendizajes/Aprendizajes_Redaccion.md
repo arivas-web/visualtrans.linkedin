@@ -105,3 +105,8 @@ _Ninguno._
 
 - 2026-10-06: carga inicial del histórico (348 posts, 5 perfiles). Aprendizajes R-01 a R-08, R-VT1,
   R-C1, R-E1, R-EN1, R-L1 y experimentos E-R1, E-R2.
+
+## Instrucción del usuario (2026-10-29)
+- Redacción lo más natural posible y cierres lo más naturales posibles (sin fórmulas de manual).
+- Al tratar noticias, variar el formato entre posts: alguno con toque de opinión o pregunta abierta (p. ej. "¿cuándo llegará la movilidad autónoma a la última milla?").
+- Las noticias curiosas y de historia del transporte/comercio generan mucha interacción; se admiten aunque no sean estrictamente del target si se conectan con el sector.

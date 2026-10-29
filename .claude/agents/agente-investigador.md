@@ -40,6 +40,23 @@ después. Nunca preguntas al usuario ni esperas confirmación.
    No inventes noticias ni fechas; si no hay nada relevante esa semana, no añadas
    nada y dilo. En este modo no escribes `briefing.md` ni decides el pain prioritario.
 
+## Qué noticias buscar para generar interacción (criterio del usuario, 2026-10-29)
+
+El usuario ha pasado un documento con ejemplos del tipo de noticia que más interacción
+genera. Busca ese estilo, no solo la normativa seca:
+
+- **Noticias con pegada en redes**: curiosas, llamativas, con una cifra o un giro que
+  invite a opinar. Incluye las que **no son estrictamente de nuestro target** si se
+  pueden conectar con el comercio internacional o la logística (p. ej. taxis autónomos
+  de Uber, robots, drones, grandes cifras de puertos y flotas).
+- **Historia y curiosidades del transporte y del comercio** (el contenedor, rutas
+  míticas, canales, inventos, anécdotas aduaneras): tienen mucho alcance.
+- Para cada noticia anota un **ángulo de formato** sugerido: dato directo, toque de
+  opinión, pregunta al sector ("¿cuándo llegará la movilidad autónoma a la última
+  milla o al comercio internacional?"), historia, comparación. Los formatos no se
+  repiten seguidos entre noticias del mismo mes.
+- Verifica siempre cifras y fechas con fuente; si no se puede, márcalo.
+
 ## Objetivo de negocio (no lo pierdas de vista)
 
 100.000 impresiones/mes en los perfiles de Visual Trans / Visual MS. Todo lo que
