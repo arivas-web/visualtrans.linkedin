@@ -162,3 +162,26 @@ Formato de cada entrada:
 - Resumen: Publicada la revisión 1.21 de la guía técnica de servicios web de tránsito para NCTS6 (mensajes entre operadores y la AEAT). Solo se ha visto el titular y el extracto.
 - Relevancia: BAJA. Apoyo técnico para el pain #6 (proveedor lento en actualizaciones); no da para post propio.
 - Registrada el: 2026-10-30
+
+---
+
+## Paro de camioneros en San Antonio (Chile) por el alza del combustible bloquea los depósitos de contenedores
+- Fecha de la noticia: 2026-10-29
+- Fuente: BioBioChile (https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2026/10/29/se-mantiene-bloqueo-a-accesos-de-depositos-en-san-antonio-por-paro-de-camioneros-independientes.shtml)
+- Resumen: Un paro indefinido de camioneros independientes mantiene bloqueados los accesos a depósitos de contenedores del puerto de San Antonio por el alza de los combustibles; la protesta empezó la noche del 28 de octubre. Solo se ha visto el titular y el extracto. Un boletín mexicano del 28/10 cita Brent a 111 $, sin verificar.
+- Relevancia: MEDIA. Noticia con pegada fuera del target directo: muestra cómo el precio del combustible paraliza un puerto. Ángulo de formato: pregunta al sector ("¿cuánto aguanta una cadena con un solo eslabón parado?"). Toca pain #2 (sin datos para decidir) de forma indirecta. Confianza media-baja.
+- Registrada el: 2026-10-30
+
+## UPS y Kuehne+Nagel suben previsiones en el tercer trimestre de 2026
+- Fecha de la noticia: 2026-10-28
+- Fuente: Información Logística (https://informacionlogistica.com/)
+- Resumen: UPS eleva sus previsiones para 2026 tras un trimestre en el que crecen todos sus negocios, y Kuehne+Nagel aumenta su beneficio operativo del tercer trimestre. Solo titulares de portada; cifras sin ver.
+- Relevancia: BAJA-MEDIA. Contexto de mercado para un post de dato directo si se consigue la cifra. Verificar en la nota original antes de usar.
+- Registrada el: 2026-10-30
+
+## SEUR contratará 3.000 personas para la campaña de Navidad
+- Fecha de la noticia: 2026-10-28
+- Fuente: Información Logística (https://informacionlogistica.com/)
+- Resumen: SEUR anuncia 3.000 contrataciones para la campaña navideña. Solo titular de portada.
+- Relevancia: BAJA. Se conecta con la temporada alta del e-commerce y el talento logístico, temas ya usados en el calendario de noviembre. Apoyo, no post propio.
+- Registrada el: 2026-10-30
