@@ -816,3 +816,13 @@ En mis 25 años en el sector he visto que abrir mercado no va de plantar una ban
 Gracias a Gurisis por abrirnos la puerta.
 
 ¿Vuestra operativa ya mira hacia Latinoamérica? ¿Qué os frenaría a dar el paso?
+
+=== SUELTO-2026-10-30-cecilio-mexico-v2 ===
+FECHA: sin fecha
+PERFIL: Cecilio Labrada
+PILAR: Noticia
+FORMATO: Imagen única, calidad máxima (HD). Nueva versión de la gráfica de México pedida por el usuario.
+PROMPT_IMAGEN (usar tal cual, literal, sin añadir el estilo de marca ni cambiar el texto de la escena):
+Close-up shot of a modern airport departure gate monitor mounted on a sleek metallic bracket inside a bright international terminal. The digital display cleanly reads flight code "VT 2026" with corporate branding, and a bold prominent glowing destination text: "MÉXICO". Below, a status bar highlights "BOARDING / PROXIMO DESTINO" in crisp cyan letters. Background shows softly blurred floor-to-ceiling glass windows of an airport terminal with daylight and distant tarmac silhouettes. Realistic photography, cinematic corporate aesthetic, clean textures, 8k resolution, editorial style.
+TEXTO:
+Visual Trans llega a México. (post suelto de Cecilio Labrada, texto en output/sueltos/2026-10-29-cecilio-mexico/post.md)
