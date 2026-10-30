@@ -20,8 +20,6 @@ No es solo tecnología; es tiempo que vuelve a las personas.
 
 Gracias al Igape por apoyar este proyecto.
 
-Esto es solo el principio. Y lo mejor está por llegar.
-
 #IGAPE #IA360 #InteligenciaArtificial #Innovación #Galicia
 
 === 2 · PRIMAVERA 2027 · Avance ===
@@ -39,8 +37,6 @@ Seguimos trabajando en dos ideas muy concretas: que los datos de una transitaria
 Y lo hacemos escuchando al sector, porque la tecnología solo sirve si habla su mismo idioma.
 
 Gracias al Igape por acompañarnos en este camino.
-
-¿Qué análisis te gustaría tener siempre a mano?
 
 #IGAPE #IA360 #InteligenciaArtificial #Innovación #Galicia
 
@@ -60,8 +56,6 @@ No es solo automatizar; es dar a cada equipo más margen para decidir con calma.
 
 Gracias al Igape por hacerlo posible.
 
-Cuanto más cerca estamos, más lejos llega el sector.
-
 #IGAPE #IA360 #InteligenciaArtificial #Innovación #Galicia
 
 === 4 · SEPTIEMBRE 2027 · Cierre ===
@@ -77,7 +71,5 @@ El proyecto de inteligencia artificial que hemos desarrollado con la financiaci�
 Análisis y cuadros de mando más inteligentes. Detección y resolución de incidencias aduaneras más automática.
 
 Gracias al Igape por confiar en Visual Trans.
-
-Esto es solo el principio. Y lo mejor está por llegar.
 
 #IGAPE #IA360 #InteligenciaArtificial #Innovación #Galicia
