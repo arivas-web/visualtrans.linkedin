@@ -146,3 +146,19 @@ Formato de cada entrada:
 - Resumen: La AEAT publica la versión 1.18 de la guía técnica de G4 con la nueva versión del servicio web de consulta (G4ConsV2) y anuncia el cierre futuro de la versión 1 del servicio. Solo se ha visto el titular y el extracto de la página de novedades; fecha de cierre no vista.
 - Relevancia: BAJA-MEDIA. Obliga a los programas de gestión aduanera a migrar su integración a la nueva versión. Toca pains #6 (proveedor lento en actualizaciones) y #7. Tema técnico: mejor como apoyo que como post propio.
 - Registrada el: 2026-10-23
+
+---
+
+## AEAT avisa de rechazos masivos en H7 con identificadores de producto: las validaciones obligatorias arrancan el 1 de noviembre
+- Fecha de la noticia: 2026-10-28
+- Fuente: Agencia Tributaria, Novedades de Aduanas (https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/octubre/28/novedades-comercio-electronico-1-noviembre.html) y aviso del 26-10 (https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/octubre/26/identificadores-producto-declaracion-h7.html)
+- Resumen: La AEAT comprueba que la mayoría de las declaraciones H7 recibidas con identificadores de producto no superan las validaciones que se activan el 1 de noviembre, y espera muchos rechazos. Con los códigos F48, F49 o F53 y sin el código F15, hacen falta por partida al menos un C127, un C128 y un C129 o Y081 (cabecera o partida, no ambos). Desde el 27 de octubre ya se pueden declarar PID en cabecera o partida. El código F15 de la H1 pasa al final de la lista (separata 2).
+- Relevancia: ALTA. Es la noticia con más urgencia real: a días del 1 de noviembre, el software que no esté adaptado provocará rechazos. Toca pains #7 (cambios legales a tiempo), #6 (proveedor lento en actualizaciones) y #3. Ángulo: dato directo ("la AEAT espera muchos rechazos") o pregunta al sector. Complementa entradas H7/PID/tasa ya registradas; no repetir la norma, contar el aviso de rechazos.
+- Registrada el: 2026-10-30
+
+## AEAT: revisión 1.21 de la guía técnica de servicios web de tránsito NCTS6
+- Fecha de la noticia: 2026-10-28
+- Fuente: Agencia Tributaria, Novedades de Aduanas (https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/octubre/28/publicacion-nueva-revision-1_21-guia-ncts6.html)
+- Resumen: Publicada la revisión 1.21 de la guía técnica de servicios web de tránsito para NCTS6 (mensajes entre operadores y la AEAT). Solo se ha visto el titular y el extracto.
+- Relevancia: BAJA. Apoyo técnico para el pain #6 (proveedor lento en actualizaciones); no da para post propio.
+- Registrada el: 2026-10-30
