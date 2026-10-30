@@ -826,3 +826,12 @@ PROMPT_IMAGEN (usar tal cual, literal, sin añadir el estilo de marca ni cambiar
 Close-up shot of a modern airport departure gate monitor mounted on a sleek metallic bracket inside a bright international terminal. The digital display cleanly reads flight code "VT 2026" with corporate branding, and a bold prominent glowing destination text: "MÉXICO". Below, a status bar highlights "BOARDING / PROXIMO DESTINO" in crisp cyan letters. Background shows softly blurred floor-to-ceiling glass windows of an airport terminal with daylight and distant tarmac silhouettes. Realistic photography, cinematic corporate aesthetic, clean textures, 8k resolution, editorial style.
 TEXTO:
 Visual Trans llega a México. (post suelto de Cecilio Labrada, texto en output/sueltos/2026-10-29-cecilio-mexico/post.md)
+
+=== SUELTO-2026-10-30-cecilio-mexico-v3 ===
+FECHA: sin fecha
+PERFIL: Cecilio Labrada
+PILAR: Pain
+FORMATO: Imagen única, estilo de prompt-pains.txt (foto real + un elemento UI glassmorphism como metáfora), calidad máxima (HD), sin logo. Tercera versión de la gráfica de México pedida por el usuario.
+CONCEPTO_VISUAL: hacer la maleta; Visual Trans sale a México. Foto luminosa de una maleta abierta y casi llena junto a un contenedor en un puerto de día; sobre ella un diálogo de sistema tipo OS en cristal esmerilado: "Nuevo destino: México" con barra de progreso "Preparando maleta... 27 años de experiencia" y botones "Cancelar" (deshabilitado) y "Confirmar viaje" (seleccionado, cian).
+TEXTO:
+Visual Trans llega a México. (post suelto de Cecilio Labrada, texto en output/sueltos/2026-10-29-cecilio-mexico/post.md)
